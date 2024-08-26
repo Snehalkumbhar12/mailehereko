@@ -1,0 +1,104 @@
+html, body, #root, .App {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #0b0f27; 
+}
+
+.container {
+  padding: 20px; 
+  min-height: 100%; 
+  border-radius: 8px; 
+}
+.navbar-brand {
+margin-left: 120px;
+}
+.nav-link{
+  color: #c7ccd0;
+}
+.navbar-expand .navbar-nav .nav-link{
+  color: #c0cedc;
+}
+
+
+/* Default styles for tab links */
+.nav-pills .nav-link {
+  color: white;
+  background-color: transparent; 
+}
+
+:root {
+  --bs-nav-pills-link-active-bg: #6d28d9; 
+  --bs-nav-pills-link-active-color: white;
+}
+
+.nav-pills .nav-link {
+  color: var(--bs-nav-pills-link-active-color); 
+  background-color: transparent; 
+}
+
+.nav-pills .nav-link.active {
+  background-color: var(--bs-nav-pills-link-active-bg);
+}
+/*MovieDetails.css*/
+
+.movie-details-container {
+  color: white;
+}
+
+.banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.banner .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay to enhance text readability */
+  z-index: 1;
+}
+
+.banner-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+}
+
+.banner-content h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.movie-content {
+  display: flex;
+  align-items: start;
+}
+
+.movie-poster {
+  border-radius: 15px;
+  max-width: 100%;
+}
+
+.movie-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.movie-content p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.movie-content strong {
+  color: #6d28d9; 
+}
